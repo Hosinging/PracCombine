@@ -31,6 +31,7 @@
 		E42043DE2795786500485339 /* Deffered.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Deffered.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E42043DF27957A5A00485339 /* AnyPublisher.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AnyPublisher.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E42043E027957BA300485339 /* Empty.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Empty.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E42043E12795873100485339 /* Fail.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Fail.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +79,7 @@
 				E42043DE2795786500485339 /* Deffered.playground */,
 				E42043DF27957A5A00485339 /* AnyPublisher.playground */,
 				E42043E027957BA300485339 /* Empty.playground */,
+				E42043E12795873100485339 /* Fail.playground */,
 			);
 			path = Publisher;
 			sourceTree = "<group>";
