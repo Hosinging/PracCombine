@@ -26,6 +26,8 @@
 		E42043CF27955CF100485339 /* pracCombine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pracCombine; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42043D227955CF100485339 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E42043D927955D0400485339 /* Publisher.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Publisher.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E42043DB279562B900485339 /* Just.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Just.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E42043DC279568DC00485339 /* Future.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Future.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +60,20 @@
 		E42043D127955CF100485339 /* pracCombine */ = {
 			isa = PBXGroup;
 			children = (
+				E42043DA279562AC00485339 /* Publisher */,
 				E42043D227955CF100485339 /* main.swift */,
-				E42043D927955D0400485339 /* Publisher.playground */,
 			);
 			path = pracCombine;
+			sourceTree = "<group>";
+		};
+		E42043DA279562AC00485339 /* Publisher */ = {
+			isa = PBXGroup;
+			children = (
+				E42043D927955D0400485339 /* Publisher.playground */,
+				E42043DB279562B900485339 /* Just.playground */,
+				E42043DC279568DC00485339 /* Future.playground */,
+			);
+			path = Publisher;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
