@@ -1,5 +1,10 @@
 import Cocoa
 import Combine
+import SwiftUI
+
+func test() {
+    
+}
 
 //MARK: AnyCancellable예제
 let subject = PassthroughSubject<Int, Never>()

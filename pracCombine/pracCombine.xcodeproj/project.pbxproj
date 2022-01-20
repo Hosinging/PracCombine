@@ -66,6 +66,8 @@
 		E42043D127955CF100485339 /* pracCombine */ = {
 			isa = PBXGroup;
 			children = (
+				E4BE7E96279A244D009130A7 /* Zedd */,
+				E4BE7E95279A2446009130A7 /* Pingu */,
 				E42043DA279562AC00485339 /* Publisher */,
 				E42043D227955CF100485339 /* main.swift */,
 			);
@@ -73,6 +75,13 @@
 			sourceTree = "<group>";
 		};
 		E42043DA279562AC00485339 /* Publisher */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Publisher;
+			sourceTree = "<group>";
+		};
+		E4BE7E95279A2446009130A7 /* Pingu */ = {
 			isa = PBXGroup;
 			children = (
 				E42043D927955D0400485339 /* Publisher.playground */,
@@ -85,7 +94,14 @@
 				E42043E22795898600485339 /* Record.playground */,
 				E42043E32795A9B700485339 /* AnyCancellable.playground */,
 			);
-			path = Publisher;
+			path = Pingu;
+			sourceTree = "<group>";
+		};
+		E4BE7E96279A244D009130A7 /* Zedd */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Zedd;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
