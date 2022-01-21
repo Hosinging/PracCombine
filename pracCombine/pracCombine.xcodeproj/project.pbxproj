@@ -35,6 +35,7 @@
 		E42043E22795898600485339 /* Record.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Record.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E42043E32795A9B700485339 /* AnyCancellable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AnyCancellable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E4BE7E97279A2C47009130A7 /* Just.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Just.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E4BE7E98279A2F3E009130A7 /* Subscriber.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subscriber.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				E4BE7E97279A2C47009130A7 /* Just.playground */,
+				E4BE7E98279A2F3E009130A7 /* Subscriber.playground */,
 			);
 			path = Zedd;
 			sourceTree = "<group>";
