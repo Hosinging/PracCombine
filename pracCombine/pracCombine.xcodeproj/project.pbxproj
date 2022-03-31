@@ -30,6 +30,12 @@
 		E42043DC279568DC00485339 /* Future.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Future.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E42043DE2795786500485339 /* Deffered.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Deffered.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E42043DF27957A5A00485339 /* AnyPublisher.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AnyPublisher.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E42043E027957BA300485339 /* Empty.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Empty.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E42043E12795873100485339 /* Fail.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Fail.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E42043E22795898600485339 /* Record.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Record.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E42043E32795A9B700485339 /* AnyCancellable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AnyCancellable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E4BE7E97279A2C47009130A7 /* Just.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Just.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E4BE7E98279A2F3E009130A7 /* Subscriber.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subscriber.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,8 @@
 		E42043D127955CF100485339 /* pracCombine */ = {
 			isa = PBXGroup;
 			children = (
+				E4BE7E96279A244D009130A7 /* Zedd */,
+				E4BE7E95279A2446009130A7 /* Pingu */,
 				E42043DA279562AC00485339 /* Publisher */,
 				E42043D227955CF100485339 /* main.swift */,
 			);
@@ -71,13 +79,33 @@
 		E42043DA279562AC00485339 /* Publisher */ = {
 			isa = PBXGroup;
 			children = (
+			);
+			path = Publisher;
+			sourceTree = "<group>";
+		};
+		E4BE7E95279A2446009130A7 /* Pingu */ = {
+			isa = PBXGroup;
+			children = (
 				E42043D927955D0400485339 /* Publisher.playground */,
 				E42043DB279562B900485339 /* Just.playground */,
 				E42043DC279568DC00485339 /* Future.playground */,
 				E42043DE2795786500485339 /* Deffered.playground */,
 				E42043DF27957A5A00485339 /* AnyPublisher.playground */,
+				E42043E027957BA300485339 /* Empty.playground */,
+				E42043E12795873100485339 /* Fail.playground */,
+				E42043E22795898600485339 /* Record.playground */,
+				E42043E32795A9B700485339 /* AnyCancellable.playground */,
 			);
-			path = Publisher;
+			path = Pingu;
+			sourceTree = "<group>";
+		};
+		E4BE7E96279A244D009130A7 /* Zedd */ = {
+			isa = PBXGroup;
+			children = (
+				E4BE7E97279A2C47009130A7 /* Just.playground */,
+				E4BE7E98279A2F3E009130A7 /* Subscriber.playground */,
+			);
+			path = Zedd;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
